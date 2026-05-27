@@ -15,8 +15,13 @@
 
 ## Connecting to the Virtual Machine
 - The server is accessed remotely using SSH
-- Using command prompt/terminal:
-- Use "Cd filename" to navigate to the file that your key is in 
-- Enter the command: ssh -i "yourkeyname.pem" yourusername@your_azure_IP
-- If a warning message "Unprotected Key File" appears: type chmod 400 your_key_name.pem
+- In the command prompt/terminal navigate to the file that your key is in using:
+- ```bash
+  cd YOUR_FILENAME
+- Enter the command:
+- ```bash
+  ssh -i "yourkeyname.pem" yourusername@your_azure_IP
+- If a warning message "Unprotected Key File" appears, use:
+- ```bash
+  chmod 400 your_key_name.pem
 - This will allow only you to use the key and grant access to the server 
