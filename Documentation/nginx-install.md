@@ -5,7 +5,7 @@
   ssh -i "yourkeyname.pem" yourusername@your_azure_IP
 - Next use:
 - ```bash
-  sudo apt update"
+  sudo apt update
 - This will update the apt repositories 
 - Finally, use the command:
 - ```bash
