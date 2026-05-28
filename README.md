@@ -17,11 +17,12 @@ The project is a website that acts a personal portfolio, showing professional sk
 - GitHub
 - Certbot
 
-## Documentation Order
-This repository should be followed in this order:
-1. vm-setup.md
-2. nginx-install.md
-3. website-deployment.md
-4. dns-config.md
-5. ssl-setup.md
-6. troubleshooting.md
+# Documentation
+
+- [VM Setup](Documentation/01-vm-setup.md)
+- [NGINX Installation](Documentation/02-nginx-install.md)
+- [Website Deployment](Documentation/03-website-deployment.md)
+- [DNS Configuration](Documentation/04-dns-config.md)
+- [SSL Setup](Documentation/05-ssl-setup.md)
+- [Troubleshooting](Documentation/06-troubleshooting.md)
+- [Script Documentation](Documentation/07-script-documentation.md)
