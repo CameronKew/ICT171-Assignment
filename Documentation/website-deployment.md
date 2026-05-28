@@ -79,7 +79,8 @@
 ## Testing Website Deployment 
 - To test that the website is working:
 - Go to a search engine and type:
-- ```bash
+- ```text
   http://YOUR_PUBLIC_IP
+  
 - This IP is the one found in your Azure portal 
 - This should take you directly to your website
