@@ -2,10 +2,8 @@
 
 ## Overview 
 - Commented code can be found: Code > Js > script.js
-
 - Most of the code used in this website comes from prior knowledge on making various websites throughout completing my certificates.
-- For this assignment I learnt the "getHours" function, the "getElementById" function from w3schools
-  
+- For this assignment, I learned the "getHours" function, the "getElementById" function, and the "localStorage" function from w3schools
 - The portfolio website includes a JavaScript script that does two things that improve user experience and provide interactive functionality.
 - In the top middle of the home page, a greeting is displayed - either "Good Morning, Good Afternoon, or Good Night." This changes depending on the time of day the user accesses the site.
 - In the top right of the page, a light/dark mode button is present, allowing users to choose between a theme by clicking on it.
