@@ -17,9 +17,11 @@
 
 ## Verifying DNS Configuration 
 - The domain can now be tested by visting:
-- http://YOUR_DOMAIN_NAME
+- ```text
+  http://YOUR_DOMAIN_NAME
 - An example from this project:
-- http://www.kewportfolio.online
+- ```text
+  http://www.kewportfolio.online
 
 ## Configuring NGINX for the Domain
 - The NGINX configuration file should now be edited so that the server will respond to requests for the domain name
@@ -27,13 +29,13 @@
 - ```bash
   sudo nano /etc/nginx/sites-available/default
 - The line:
-- ```bash
+- ```text
   server_name _;
 - Should be replaced with:
-- ```bash
+- ```text
   server_name YOUR_DOMAIN www.YOUR_DOMAIN;
 - Example:
-- ```bash
+- ```text
   server_name kewportfolio.online www.kewportfolio.online;
 
 ## Testing NGINX Configuration
@@ -43,4 +45,4 @@
 - After successful validation, restart the server:
 - ```bash
   sudo service nginx restart
-- 
+
