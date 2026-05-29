@@ -26,3 +26,4 @@ The project is a website that acts a personal portfolio, showing professional sk
 - [SSL Setup](Documentation/05-ssl-setup.md)
 - [Troubleshooting](Documentation/06-troubleshooting.md)
 - [Script Documentation](Documentation/07-script-documentation.md)
+- [JavaScript Code](Code/js/script.js)
